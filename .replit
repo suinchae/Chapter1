@@ -1,5 +1,5 @@
 modules = ["python-3.10:v18-20230807-322e88b"]
-run = "python algorithm/greedy/coin.py"
+run = "python algorithm/greedy/큰_수의_법칙/3_1.py"
 
 [nix]
 channel = "stable-23_05"
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["sh", "-c", "coin.py"]
+run = ["sh", "-c", "3_1.py"]
 deploymentTarget = "cloudrun"
